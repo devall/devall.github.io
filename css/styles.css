@@ -1,0 +1,80 @@
+* { margin: 0; padding: 0; }
+body { background: #FFF url(../images/bgnoise.gif); font: 14px/1.231 tahoma, ariel; }
+
+a { text-decoration: none; color: #A1A2A3; }
+a:hover { border-bottom: 1px dotted #A4A5A6; }
+
+ul { list-style: none; line-height: 1.25em; }
+
+#container { }
+
+#lside, #rside, #bside, #tside, #circle { position: absolute; top: 40%; text-align: center; }
+
+#circle {
+               margin-top:-63px;
+    left: 50%; margin-left:-63px;
+
+    width:  126px;
+    height: 126px;
+
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+
+    overflow: hidden;
+    background: rgba(0,0,0,0.9) url(../images/d.png) 0 0 no-repeat;
+}
+
+#flare:before,#flare:after { content:""; position:absolute; }
+#flare:before {
+    top:-50px;
+    left:-50px;
+
+    width:  126px;
+    height: 126px;
+
+    border: 1px solid transparent;
+
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+
+    box-shadow: 50px 50px 0 rgba(255,255,255,0.03);
+}
+#flare:after {
+    top:10px;
+    left:10px;
+
+    width:  126px;
+    height: 126px;
+
+    border: 1px solid transparent;
+
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+
+    box-shadow: -10px -10px 0 rgba(255,255,255,0.3);
+}
+
+#lside { left:  30%; }
+#rside { right: 30%; }
+
+#bside {
+    text-align: left;
+    top:  55%;
+    left: 50%; margin-left: -50px;
+
+    width: 200px;
+}
+
+#tside {
+    left: 50%; margin-left: -170px;
+    top: 15%;
+
+    width: 340px;
+}
+
+.plugins {
+    font-family: 'Lobster', cursive, Ariel;
+}
