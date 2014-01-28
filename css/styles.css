@@ -8,7 +8,7 @@ ul { list-style: none; line-height: 1.25em; }
 
 #container { }
 
-#lside, #rside, #bside, #tside, #circle { position: absolute; top: 40%; text-align: center; }
+#lside, #rside, #bside-1, #bside-2, .about, #tside, #circle { position: absolute; top: 40%; text-align: center; }
 
 #circle {
                margin-top:-63px;
@@ -60,12 +60,38 @@ ul { list-style: none; line-height: 1.25em; }
 #lside { left:  30%; }
 #rside { right: 30%; }
 
-#bside {
+.about {
+    width: 400px;
+    top: 55%;
+    left: 50%;
+    margin-left: -200px;
+}
+
+.about p {
+    font-size: 13px;
+    color: #8c8c8c;
+}
+
+
+#bside-1 {
     text-align: left;
-    top:  55%;
-    left: 50%; margin-left: -50px;
+    top:  63%;
+    left: 41%; 
 
     width: 200px;
+}
+#bside-2 {
+    text-align: left;
+    top:  63%;
+    left: 52%; 
+
+    width: 200px;
+}
+
+#bside-1 h2, #bside-2 h2 {
+    font-size: 15px;
+    color: #3c3c3c;
+    margin-bottom: 10px;
 }
 
 #tside {
