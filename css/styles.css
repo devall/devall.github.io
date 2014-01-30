@@ -87,7 +87,7 @@ ul { list-style: none; line-height: 1.25em; }
     left: 50%; 
 
     width: 200px;
-    margin-left: -50px;    
+    margin-left: 50px;    
 }
 
 #bside-1 h2, #bside-2 h2 {
