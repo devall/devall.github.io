@@ -73,6 +73,12 @@ ul { list-style: none; line-height: 1.25em; }
 }
 
 
+@media (max-width: 1400px){
+       #bside-2 {
+           margin-left: 0 !important;
+       }
+}
+
 #bside-1 {
     text-align: left;
     top:  63%;
