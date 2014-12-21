@@ -8,7 +8,7 @@ ul { list-style: none; line-height: 1.25em; }
 
 #container { }
 
-#lside, #rside, #bside-1, #bside-2, .about, #tside, #circle { position: absolute; top: 40%; text-align: center; }
+#lside, #rside, #bside-1, #bside-2, #bside-3, .about, #tside, #circle { position: absolute; top: 40%; text-align: center; }
 
 #circle {
                margin-top:-63px;
@@ -89,7 +89,6 @@ ul { list-style: none; line-height: 1.25em; }
     width: 200px;
     margin-left: 50px;    
 }
-
 #bside-3 {
     text-align: left;
     top:  63%;
