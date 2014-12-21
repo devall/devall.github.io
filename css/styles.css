@@ -76,7 +76,7 @@ ul { list-style: none; line-height: 1.25em; }
 #bside-1 {
     text-align: left;
     top:  63%;
-    left: 43%; 
+    left: 40%; 
     
     width: 200px;
     margin-left: -150px;
@@ -95,7 +95,7 @@ ul { list-style: none; line-height: 1.25em; }
     left: 56%; 
 
     width: 200px;
-    margin-left: 50px;    
+    margin-left: 100px;    
 }
 
 #bside-1 h2, #bside-2 h2, #bside-3 h2 {
